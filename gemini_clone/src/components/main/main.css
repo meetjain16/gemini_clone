@@ -1,0 +1,92 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+position: relative;
+}
+
+.main .nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+
+font-size: 22px;
+
+}
+.main .nav img{
+    width: 40px;
+    border-radius: 10px;
+}
+.main-container{
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.main .greet{
+    margin: 50px 0px;
+    font-size: 56px;
+    font-weight: 500;
+    padding: 20px;
+}
+.main .greet span{
+    background: -webkit-linear-gradient(16deg,#4b4b4b,#ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.main .card{
+    padding: 15px;
+    position: relative;
+    background-color: #f0f4f9;
+    height: 200px;
+    cursor: pointer;
+}
+
+.main .card img{
+    width: 35px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    right: 10px;
+
+}
+
+.main .card:hover{
+    background-color: beige;
+}
+.main-bottom{
+position: absolute;
+bottom: 0;
+width: 100%;
+margin: auto;
+max-width: 900px;
+padding:  0px 20px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 50px;
+
+
+}
+.search-box img{
+    width: 24px;
+}
+.search-box input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: #ff5546;
+}
